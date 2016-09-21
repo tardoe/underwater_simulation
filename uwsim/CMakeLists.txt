@@ -79,7 +79,7 @@ INCLUDE_DIRECTORIES(include ${BULLET_INCLUDE_DIRS} ${OSGWORKS_INCLUDE_DIR} ${OSG
 link_directories(${orocos_kdl_LIBRARY_DIRS})
 
 # this disables the warnings that come mostly from osg
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-ignored-qualifiers")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-ignored-qualifiers -std=c++0x")
 
 add_library(uwsim 
 src/osgOceanScene.cpp

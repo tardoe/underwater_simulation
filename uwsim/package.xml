@@ -22,7 +22,7 @@
   <build_depend>interactive_markers</build_depend>
   <build_depend>kdl_parser</build_depend>
   <build_depend>libopenscenegraph</build_depend>
-  <build_depend>libxml++-2.6</build_depend>
+  <build_depend>libxml++2.6-2v5</build_depend>
   <build_depend>nav_msgs</build_depend>
   <build_depend>opengl</build_depend>
   <build_depend>osg_interactive_markers</build_depend>
@@ -50,7 +50,7 @@
   <run_depend>interactive_markers</run_depend>
   <run_depend>kdl_parser</run_depend>
   <run_depend>libopenscenegraph</run_depend>
-  <run_depend>libxml++-2.6</run_depend>
+  <run_depend>libxml++2.6-2v5</run_depend>
   <run_depend>nav_msgs</run_depend>
   <run_depend>opengl</run_depend>
   <run_depend>osg_interactive_markers</run_depend>
